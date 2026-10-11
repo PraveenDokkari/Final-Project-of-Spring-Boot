@@ -1,0 +1,79 @@
+2026-10-12T01:24:48.872+05:30  WARN 17496 --- [OnlineExaminationSystem] [ExamHikariPool:housekeeper] com.zaxxer.hikari.pool.HikariPool        : ExamHikariPool - Thread starvation or clock leap detected (housekeeper delta=4h9m41s551ms914µs101ns).
+2026-10-12T01:59:35.798+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] c.e.OnlineExaminationSystemApplication   : Starting OnlineExaminationSystemApplication using Java 21.0.12.1 with PID 20704 (C:\Users\PJ\Documents\workspace-spring\OnlineExaminationSystem\target\classes started by PJ in C:\Users\PJ\Documents\workspace-spring\OnlineExaminationSystem)
+2026-10-12T01:59:35.803+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] c.e.OnlineExaminationSystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T01:59:37.618+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T01:59:37.708+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+2026-10-12T01:59:38.856+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-12T01:59:38.879+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-12T01:59:38.879+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12T01:59:38.957+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3048 ms
+2026-10-12T01:59:39.351+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-12T01:59:39.429+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-12T01:59:39.881+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T01:59:39.925+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Starting...
+2026-10-12T01:59:40.126+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.pool.HikariPool        : ExamHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fc2933e
+2026-10-12T01:59:40.128+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Start completed.
+2026-10-12T01:59:40.243+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/online_Exam?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: online_Exam/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T01:59:41.298+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T01:59:41.437+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T01:59:41.550+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12T01:59:42.633+05:30  WARN 20704 --- [OnlineExaminationSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T01:59:42.776+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-12T01:59:43.723+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-12T01:59:43.836+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-12T01:59:43.854+05:30  INFO 20704 --- [OnlineExaminationSystem] [main] c.e.OnlineExaminationSystemApplication   : Started OnlineExaminationSystemApplication in 8.658 seconds (process running for 9.066)
+2026-10-12T01:59:43.969+05:30  WARN 20704 --- [OnlineExaminationSystem] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-12T01:59:43.969+05:30  WARN 20704 --- [OnlineExaminationSystem] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-12T02:01:00.133+05:30  INFO 20704 --- [OnlineExaminationSystem] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12T02:01:00.142+05:30  INFO 20704 --- [OnlineExaminationSystem] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-12T02:01:00.146+05:30  INFO 20704 --- [OnlineExaminationSystem] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-10-12T02:01:05.813+05:30  INFO 20704 --- [OnlineExaminationSystem] [http-nio-8080-exec-2] c.example.serviceImple.ExamServiceImpl   : Fetching published exams page=0, size=5
+2026-10-12T02:01:06.046+05:30  WARN 20704 --- [OnlineExaminationSystem] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-10-12T02:12:45.209+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] .OnlineExaminationSystemApplicationTests : Starting OnlineExaminationSystemApplicationTests using Java 21.0.12.1 with PID 25156 (started by PJ in C:\Users\PJ\Documents\workspace-spring\OnlineExaminationSystem)
+2026-10-12T02:12:45.213+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] .OnlineExaminationSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-10-12T02:12:47.050+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12T02:12:47.178+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 6 JPA repository interfaces.
+2026-10-12T02:12:48.301+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-12T02:12:48.406+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-12T02:12:48.949+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12T02:12:48.988+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Starting...
+2026-10-12T02:12:49.166+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.pool.HikariPool        : ExamHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@53f94afe
+2026-10-12T02:12:49.168+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Start completed.
+2026-10-12T02:12:49.258+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/online_Exam?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: online_Exam/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-12T02:12:50.382+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12T02:12:50.482+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T02:12:50.604+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12T02:12:51.762+05:30  WARN 25156 --- [OnlineExaminationSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-12T02:12:51.977+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-12T02:12:53.394+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-12T02:12:53.484+05:30  INFO 25156 --- [OnlineExaminationSystem] [main] .OnlineExaminationSystemApplicationTests : Started OnlineExaminationSystemApplicationTests in 8.68 seconds (process running for 10.251)
+2026-10-12T02:12:53.619+05:30  WARN 25156 --- [OnlineExaminationSystem] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-12T02:12:53.620+05:30  WARN 25156 --- [OnlineExaminationSystem] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-12T02:12:54.264+05:30  INFO 25156 --- [OnlineExaminationSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12T02:12:54.268+05:30  INFO 25156 --- [OnlineExaminationSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Shutdown initiated...
+2026-10-12T02:12:54.277+05:30  INFO 25156 --- [OnlineExaminationSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : ExamHikariPool - Shutdown completed.
